@@ -27,7 +27,7 @@ export class HomePage {
 
   loginWithGoogle(){ 
     GooglePlus.login({
-      'webClientId': '164159689649-mgq2po8ev40f9k4lkcdcrmbeorv0qbuo.apps.googleusercontent.com'
+      'webClientId': '595849411292-7lnukpf1ogfcegaebg0t2p1dcugtedup.apps.googleusercontent.com'
     }).then((res) => {
         console.log(res);
     }, (err) => {
